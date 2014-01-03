@@ -1,0 +1,12 @@
+{
+  "name": "rule1",
+  "version": "0.0.0",
+  "description": "Rule#1 Investing Helper Module (for personal use only)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": "git@github.com:rynodivino/rule1.git",
+  "author": "rynodivino",
+  "license": "BSD"
+}
