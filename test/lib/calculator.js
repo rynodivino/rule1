@@ -1,4 +1,4 @@
-var calculator  = require('../../lib/util.js'),
+var calculator  = require('../../lib/calculator.js'),
     test = require('tap').test;
 
 test("Test roic calculation.", function(t) {

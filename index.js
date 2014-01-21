@@ -1,4 +1,4 @@
-var util = require('./lib/util');
+var calc = require('./lib/calculator');
     burglar = require('./lib/numburglar'),
     argv = require('optimist').argv,
     type = argv.type ? argv.type : "vet",
@@ -6,5 +6,5 @@ var util = require('./lib/util');
 
 if (type === 'growth') {
     console.log('Growth baby');
-    console.log(util.growth(argv.prev, argv.current, years));
+    console.log(calc.growth(argv.prev, argv.current, years));
 }
