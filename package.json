@@ -8,6 +8,7 @@
   },
   "repository": "git@github.com:rynodivino/rule1.git",
   "author": "rynodivino",
+  "keywords": ["rynodivino","rule1"],
   "license": "BSD",
   "devDependencies": {
     "tap": "~0.4.6"
